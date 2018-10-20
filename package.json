@@ -1,0 +1,32 @@
+{
+  "name": "scraping-with-cheerio",
+  "version": "1.0.0",
+  "description": "A web app that allows users to view and leave comments on news articles scraped from the New York Times utilizing Mongoose and Cheerio.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottasawyer/Scraping-with-Cheerio.git"
+  },
+  "keywords": [
+    "Cheerio",
+    "Mongo",
+    "Mongoose"
+  ],
+  "author": "Scott Sawyer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottasawyer/Scraping-with-Cheerio/issues"
+  },
+  "homepage": "https://github.com/scottasawyer/Scraping-with-Cheerio#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.3.4",
+    "request": "^2.88.0"
+  }
+}
